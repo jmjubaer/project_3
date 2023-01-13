@@ -1,0 +1,185 @@
+/* =========================Common CSS======================= */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: #E5E5E5;
+}
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 870px;
+    max-width: 98%;
+    margin: auto;
+}
+/*========================= Nav area======================== */
+header{
+    background: #562EFF;
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: #fff;
+}
+.logo img{
+    width: 41px;
+    height: 51px;
+    margin-right: 15px;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+}
+.logo a h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu ul li{
+    margin-left: 36px;
+}
+.menu ul li img{
+    width: 51px;
+    height: 51px;
+}
+main{
+    margin: 42px 0 28px;
+}
+/* =========================Top area=================== */
+.top_area{
+    background: #fff;
+    margin: 0px 0 21px;
+    border-radius: 5px;
+    padding: 30px 30px 42px;
+}
+/* .player_area{
+    padding: 0 30px;
+} */
+.player_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+    margin: 40px 0 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #D1D1D1;
+}
+.player_container .child_player{
+    display: flex;
+    align-items: center;
+}
+.player_container .child_player a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.player_container .child_player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+.blogs_area .blogs_container{
+    display: grid;
+    grid-template-columns: repeat(2 , 49%);
+    justify-content: space-between;
+    grid-row-gap: 18px;
+    margin-top: 30px;
+}
+.child_blogs{
+    display: flex;
+    gap: 16px;
+}
+.child_blogs h3{
+    font: 20px 500; 
+    line-height: 34px;
+}
+.child_blogs img{
+    width: 40%;
+}
+/* =======================Coures area=============== */
+.coures_area{
+    background: #fff;
+    border-radius: 5px;
+    padding: 23px 33px 22px;
+}
+.coures_container{
+    display: flex;
+    margin-top: 24px;
+    gap: 23px;
+}
+.child_coures{
+    box-shadow: 0 0 10px 1px #ddd;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 13px 15px 21px;
+}
+.child_coures h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 19px;
+}
+.child_coures a{
+    font-size: 15px;
+    color: #ED6B4F;
+    margin-top: 7px;
+}
+.time_review{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+}
+.review{
+    display: flex;
+    font-size: 14.5px;
+    color: #A2A2A2;
+}
+.review ul{
+    display: flex;
+    list-style: none;
+    width: 75px;
+    height: 12px;
+    margin-right: 10px;
+}
+.time{
+   display: flex;
+   background: #FFE4E8; 
+   padding: 5px;
+   border-radius: 20px;
+   color: #FF4A60;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14.5px;
+}
+.time img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+
